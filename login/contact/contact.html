@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Contact</title>
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../Front/css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="../../Front/css/style.css" rel="stylesheet" />
+  <link href="../../Front/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <section class="contact_section layout_padding">
+    <div class="custom_heading-container">
+      <h3 class=" ">
+        Contact Admin
+      </h3>
+    </div>
+    <div class="container layout_padding2-top">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form action="connection.php" method="POST">
+            <div>
+              <input type="text" placeholder="NAME" name="name" id="name" required>
+            </div>
+            <div>
+              <input type="email" placeholder="EMAIL" name="email" id="email" required>
+            </div>
+            <div>
+              <input type="text" placeholder="SUBJECT" name="subject" id="subject" required>
+            </div>
+            
+            <div>
+              <input type="text" class="message-box" placeholder="MESSAGE"name="comments" id="comments" required>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-primary" type="submit" value="SEND" id="submit" name="submit">SEND</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+</html>
