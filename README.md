@@ -1,0 +1,6 @@
+# V-omnivst
+Login passwords for users.
+  01.admin username- admin@gmail.com password-123456 
+  02.eco_user username- ecotest@gmail.com password-123456 
+  03.insuarance_user username- insu1@gmail.com password-123456 
+  04.police_user username- police@gmail.com password-123456 
